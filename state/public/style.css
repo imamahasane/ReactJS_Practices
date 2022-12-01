@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.headerStyle {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 10px 15px;
+  border-radius: 7px;
+  font-size: 3rem;
+}
+
+.icon {
+  font-size: 3rem;
+  color: blue;
+  margin: 10px;
+  border: none;
+}
+
+button {
+  font-size: 2.5rem;
+  margin: 5px 12px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: lime;
+  color: white;
+  width: 60px;
+}
