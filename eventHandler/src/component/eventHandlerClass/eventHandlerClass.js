@@ -2,22 +2,23 @@ import React, { Component } from 'react';
 
 class EvnHandCls extends Component {
   constructor(props) {
-    super(props) 
+    super(props);
 
     this.state = {
-      changedValue: ''
-    }
+      changedValue: '',
+    };
   }
 
   handleChange = (e) => {
-
-    this.setState({
-      changedValue: e.target.value
-    }, () => {
-      console.log(this.state.changedValue)
-    })
-    
-  }
+    this.setState(
+      {
+        changedValue: e.target.value,
+      },
+      () => {
+        console.log(this.state.changedValue);
+      }
+    );
+  };
 
   render() {
     return (
@@ -25,7 +26,7 @@ class EvnHandCls extends Component {
         <input type="text" onChange={this.handleChange} />
         <p>{this.state.changedValue}</p>
       </div>
-    )
+    );
   }
 }
 
